@@ -7,6 +7,6 @@ public class PurchaseByCard implements  PurchaseFactory{
     /// ra màn hình thông báo
     @Override
     public void makePurchase() {
-        System.out.println("Purchase.Purchase by Card");
+        System.out.println("Purchase by Card");
     }
 }
