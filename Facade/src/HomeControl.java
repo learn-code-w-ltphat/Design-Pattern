@@ -41,13 +41,6 @@ public class HomeControl {
         security.turnOnCameras();
     }
 
-    public void deactivateSecurityMode() {
-        System.out.println("Deactivating Security Mode...");
-        security.deactivateAlarm();
-        security.unlockDoors();
-        security.turnOffCameras();
-    }
-
     public void turnOffAllSystems() {
         System.out.println("Turning off all systems...");
         light.turnOff();

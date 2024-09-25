@@ -12,8 +12,4 @@ public class Television {
     public void setChannel(int channel) {
         System.out.println("TV set to channel " + channel);
     }
-
-    public void setVolume(int volume) {
-        System.out.println("TV volume set to " + volume);
-    }
 }
