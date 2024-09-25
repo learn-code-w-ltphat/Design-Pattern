@@ -4,10 +4,10 @@ import HomeSystem.Television;
 import HomeSystem.Security;
 
 public class HomeControl {
-    private Light light;
-    private AirConditioner ac;
-    private Security security;
-    private Television tv;
+    private final Light light;
+    private final AirConditioner ac;
+    private final Security security;
+    private final Television tv;
 
     public HomeControl(Light light, AirConditioner ac, Security security, Television tv) {
         this.light = light;
